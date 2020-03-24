@@ -10,7 +10,7 @@
     <groupId>de.grundid</groupId>
     <artifactId>jspc-compiler-tomcat</artifactId>
     <name>JSPC Compiler for Tomcat</name>
-    <version>9.0.0</version>
+    <version>9.0.1-SNAPSHOT</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -22,7 +22,7 @@
     <scm>
         <connection>scm:git:git://github.com/grundid/jspc-compiler-tomcat.git</connection>
         <developerConnection>scm:git:ssh://git@github.com:/grundid/jspc-compiler-tomcat.git</developerConnection>
-        <tag>jspc-compiler-tomcat-9.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <developers>
