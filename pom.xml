@@ -19,8 +19,23 @@
         <java-version>1.8</java-version>
     </properties>
 
-    <dependencies>
 
+    <scm>
+        <connection>scm:git:git://github.com/grundid/jspc-compiler-tomcat.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:/grundid/jspc-compiler-tomcat.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>Adrian Stabiszewski</name>
+            <email>as@grundid.de</email>
+            <organization>GrundID GmbH</organization>
+            <organizationUrl>http://www.grundid.de</organizationUrl>
+        </developer>
+    </developers>
+    
+    <dependencies>
         <dependency>
             <groupId>org.codehaus.plexus</groupId>
             <artifactId>plexus-component-annotations</artifactId>
